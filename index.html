@@ -2,604 +2,768 @@
 <html lang="pt-BR">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jefferson Natan Borges | Portfolio</title>
-<meta name="description" content="Portfolio of Jefferson Natan Borges, a frontend and web developer building modern, responsive websites and applications.">
-<meta name="theme-color" content="#020617">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Jefferson Natan Borges | Portfolio">
-<meta property="og:description" content="Modern, responsive websites and web applications built by Jefferson Natan Borges.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="style.css">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <title>Jefferson Natan Borges | Portfolio</title>
+
+    <meta name="description" content="Portfolio of Jefferson Natan Borges, a frontend and web developer building modern, responsive websites and applications.">
+    <meta name="theme-color" content="#020617">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Jefferson Natan Borges | Portfolio">
+    <meta property="og:description" content="Modern, responsive websites and web applications built by Jefferson Natan Borges.">
+
+    <!-- Arquivos CSS e ícone na mesma pasta -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
 </head>
 
 <body>
 
-<video class="video-bg" autoplay muted loop playsinline aria-hidden="true" tabindex="-1">
-  <source src="portifolio.mp4" type="video/mp4">
-</video>
+    <!-- Vídeo de fundo -->
+    <video class="video-bg" autoplay muted loop playsinline aria-hidden="true" tabindex="-1">
+        <source src="portifolio.mp4" type="video/mp4">
+    </video>
 
-<header>
-<div class="container nav">
-<a href="#home" class="logo">Jeffe<span>.dev</span></a>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container nav">
 
-<button class="menu-btn" id="menuBtn" type="button" aria-label="Open navigation menu" aria-controls="navLinks" aria-expanded="false">☰</button>
+            <a href="#home" class="logo">Jeffe<span>.dev</span></a>
 
-<ul class="nav-links" id="navLinks">
-<li><a href="#home" class="active">Início</a></li>
-<li><a href="#about">Sobre</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#projects">Projetos</a></li>
-<li><a href="#process">Processo</a></li>
-<li><a href="#certificates">Certificados</a></li>
-<li><a href="#faq">FAQ</a></li>
-<li><a href="#contact">Contato</a></li>
-</ul>
+            <button
+                class="menu-btn"
+                id="menuBtn"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-controls="navLinks"
+                aria-expanded="false">
+                ☰
+            </button>
 
-<a href="#contact" class="btn btn-primary nav-cta">Orçamento</a>
-</div>
-</header>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#process">Processo</a></li>
+                <li><a href="#certificates">Certificados</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
 
-<main>
-
-<section class="hero" id="home">
-
-<div class="container hero-content">
-
-<div class="fade-up show">
-
-<span class="tag">
-Frontend Developer • Web Developer
-</span>
-
-<h1>
-  FAÇA SUA MARCA TER<br>
-  UM SITE QUE REALMENTE<br>
-  <span>VENDE POR VOCÊ</span>
-</h1>
-
-<p>
-Do primeiro clique à decisão, eu crio sites
-que valorizam sua marca e geram clientes.
-</p>
-
-<div class="hero-buttons">
-<a href="#contact" class="btn btn-primary">Solicitar orçamento <span class="btn-arrow">↗</span></a>
-
-<a href="#projects" class="btn btn-secondary">Projetos</a>
-</div>
-
-</div>
-
-<div class="hero-showcase" aria-hidden="true">
-  <span>PROJETOS<br>DO ZERO</span>
-</div>
-
-</div>
-
-<div class="scroll-hint" aria-hidden="true">↓</div>
-</section>
-
-<!-- ============ BANNER DE IMPACTO + NÚMEROS ============ -->
-<section class="impact" id="impact" aria-label="Resultados">
-<div class="impact-banner">
-<img class="impact-bg" src="carteira.png" alt="" aria-hidden="true" loading="lazy" decoding="async">
-
-<div class="impact-overlay" aria-hidden="true"></div>
-
-<div class="impact-content">
-<h2 class="impact-title fade-up">
-UM NOVO SITE PODE<br>FAZER SUA EMPRESA<br>VENDER MUITO MAIS
-</h2>
-
-<div class="impact-row">
-<div class="impact-text impact-left fade-up">
-<p>Seu negócio ganha mais credibilidade<br>desde a primeira visita ao site.</p>
-</div>
-
-<div class="impact-text impact-right fade-up">
-<p>Menos visitantes perdidos.<br>Mais pessoas virando clientes.</p>
-<a href="#contact" class="btn btn-primary impact-btn">Solicite Orçamento <span class="btn-arrow">↗</span></a>
-</div>
-</div>
-</div>
-</div>
-
-<div class="container impact-numbers">
-<div class="impact-stat">
-<h4 data-count="4" data-prefix="+">0</h4>
-<p>Projetos criados</p>
-</div>
-<div class="impact-stat">
-<h4 data-count="4" data-prefix="+">0</h4>
-<p>Tecnologias usadas</p>
-</div>
-<div class="impact-stat">
-<h4 data-count="100" data-suffix="%">0</h4>
-<p>Responsividade</p>
-</div>
-<div class="impact-stat">
-<h4 data-count="24" data-suffix="/7">0</h4>
-<p>Disponibilidade</p>
-</div>
-</div>
-</section>
-
-<section id="about">
-
-    <div class="container">
-
-        <h2 class="section-title">
-            Sobre mim
-        </h2>
-
-        <p class="section-subtitle">
-            Desenvolvedor focado em criar interfaces modernas e evoluir através de projetos reais.
-        </p>
-
-        <div class="about-grid">
-
-            <!-- FOTO -->
-            <div class="card about-photo-card fade-up">
-
-                <div class="about-photo">
-                    <img src="jeffe.dev.png" alt="Jefferson Natan Borges" loading="lazy" decoding="async">
-                </div>
-
-            </div>
-
-            <!-- TEXTO + STATS -->
-            <div class="card fade-up">
-
-                <h3>Quem eu sou</h3>
-
-                <p>
-                    Sou apaixonado por tecnologia e programação. Gosto de criar sites e aplicações que resolvem problemas e entregam uma ótima experiência ao usuário.
-                </p>
-
-                <br>
-
-                <p>
-                    Evoluo continuamente através de projetos práticos envolvendo design responsivo, APIs e tecnologias web modernas.
-                </p>
-
-            </div>
+            <a href="#contact" class="btn btn-primary nav-cta">Orçamento</a>
 
         </div>
+    </header>
 
-    </div>
+    <main>
 
-</section>
+        <!-- Início -->
+        <section class="hero" id="home">
 
-<section id="skills">
-    <div class="container">
-        <h2 class="section-title">Skills</h2>
-        <p class="section-subtitle">
-            Tecnologias e práticas que uso para construir experiências web responsivas.
-        </p>
+            <div class="container hero-content">
 
-        <div class="skills-grid">
-            <article class="card skill-card fade-up">
-                <h3>HTML</h3>
-                <p>Semantic, well-structured web pages.</p>
-            </article>
-            <article class="card skill-card fade-up">
-                <h3>CSS</h3>
-                <p>Responsive layouts and polished interfaces.</p>
-            </article>
-            <article class="card skill-card fade-up">
-                <h3>JavaScript</h3>
-                <p>Interactive behavior and dynamic experiences.</p>
-            </article>
-            <article class="card skill-card fade-up">
-                <h3>APIs</h3>
-                <p>Connecting web applications to external data.</p>
-            </article>
-        </div>
-    </div>
-</section>
+                <div class="fade-up show">
 
-<section id="certificates">
-    <div class="container">
-        <h2 class="section-title">Certificados</h2>
-        <p class="section-subtitle">Sempre estudando — novas certificações em breve.</p>
+                    <span class="tag">
+                        Frontend Developer • Web Developer
+                    </span>
 
-        <div class="certificates-grid">
-            <img
-                class="certificate-status-image"
-                src="certificados-em-andamento.svg"
-                alt="Certificados em andamento. Em breve, novas certificações."
-            >
-        </div>
-    </div>
-</section>
+                    <h1>
+                        FAÇA SUA MARCA TER<br>
+                        UM SITE QUE REALMENTE<br>
+                        <span>VENDE POR VOCÊ</span>
+                    </h1>
 
-<section id="projects">
+                    <p>
+                        Do primeiro clique à decisão, eu crio sites
+                        que valorizam sua marca e geram clientes.
+                    </p>
 
-    <div class="container">
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            Solicitar orçamento <span class="btn-arrow">↗</span>
+                        </a>
 
-        <h2 class="section-title">
-            Projetos em destaque
-        </h2>
-
-        <p class="section-subtitle">
-            Projetos que demonstram experiência prática em desenvolvimento web.
-        </p>
-
-        <div class="projects-carousel">
-            <div class="projects-track">
-
-            <!-- PROJETO 1 -->
-            <div class="card project-card fade-up">
-
-                <div class="project-image">
-
-                    <img src="agendamento.png" alt="Scheduling System" loading="lazy" decoding="async">
-
-                    <div class="project-overlay">
-                        Sistema de Agendamento
+                        <a href="#projects" class="btn btn-secondary">
+                            Projetos
+                        </a>
                     </div>
 
                 </div>
 
-                <h3>
-                    Site de Agendamento para Manicure
-                </h3>
-
-                <p>
-                    Site responsivo criado para agendamentos de manicure, permitindo que clientes marquem serviços com facilidade.
-                </p>
-
-                <div class="tech-stack">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                </div>
-
-                <div class="project-links">
-
-                    <a class="btn btn-secondary"
-                        href="https://jeffetecno.github.io/Manicure/"
-                        target="_blank" rel="noopener noreferrer">
-                        Live Demo
-                    </a>
-
+                <div class="hero-showcase" aria-hidden="true">
+                    <span>PROJETOS<br>DO ZERO</span>
                 </div>
 
             </div>
 
-            <!-- PROJETO 2 -->
-            <div class="card project-card fade-up">
+            <div class="scroll-hint" aria-hidden="true">↓</div>
 
-                <div class="project-image">
+        </section>
 
-                    <img src="clima.png" alt="Weather App" loading="lazy" decoding="async">
+        <!-- Banner de impacto -->
+        <section class="impact" id="impact" aria-label="Resultados">
 
-                    <div class="project-overlay">
-                        App do Clima
+            <div class="impact-banner">
+
+                <img
+                    class="impact-bg"
+                    src="carteira.png"
+                    alt=""
+                    aria-hidden="true"
+                    loading="lazy"
+                    decoding="async">
+
+                <div class="impact-overlay" aria-hidden="true"></div>
+
+                <div class="impact-content">
+
+                    <h2 class="impact-title fade-up">
+                        UM NOVO SITE PODE<br>
+                        FAZER SUA EMPRESA<br>
+                        VENDER MUITO MAIS
+                    </h2>
+
+                    <div class="impact-row">
+
+                        <div class="impact-text impact-left fade-up">
+                            <p>
+                                Seu negócio ganha mais credibilidade<br>
+                                desde a primeira visita ao site.
+                            </p>
+                        </div>
+
+                        <div class="impact-text impact-right fade-up">
+                            <p>
+                                Menos visitantes perdidos.<br>
+                                Mais pessoas virando clientes.
+                            </p>
+
+                            <a href="#contact" class="btn btn-primary impact-btn">
+                                Solicite Orçamento <span class="btn-arrow">↗</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container impact-numbers">
+
+                <div class="impact-stat">
+                    <h4 data-count="4" data-prefix="+">0</h4>
+                    <p>Projetos criados</p>
+                </div>
+
+                <div class="impact-stat">
+                    <h4 data-count="4" data-prefix="+">0</h4>
+                    <p>Tecnologias usadas</p>
+                </div>
+
+                <div class="impact-stat">
+                    <h4 data-count="100" data-suffix="%">0</h4>
+                    <p>Responsividade</p>
+                </div>
+
+                <div class="impact-stat">
+                    <h4 data-count="24" data-suffix="/7">0</h4>
+                    <p>Disponibilidade</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Sobre mim -->
+        <section id="about">
+
+            <div class="container">
+
+                <h2 class="section-title">Sobre mim</h2>
+
+                <p class="section-subtitle">
+                    Desenvolvedor focado em criar interfaces modernas
+                    e evoluir através de projetos reais.
+                </p>
+
+                <div class="about-grid">
+
+                    <div class="card about-photo-card fade-up">
+
+                        <div class="about-photo">
+                            <img
+                                src="jeffe.dev.png"
+                                alt="Jefferson Natan Borges"
+                                loading="lazy"
+                                decoding="async">
+                        </div>
+
+                    </div>
+
+                    <div class="card fade-up">
+
+                        <h3>Quem eu sou</h3>
+
+                        <p>
+                            Sou apaixonado por tecnologia e programação.
+                            Gosto de criar sites e aplicações que resolvem
+                            problemas e entregam uma ótima experiência ao usuário.
+                        </p>
+
+                        <br>
+
+                        <p>
+                            Evoluo continuamente através de projetos práticos
+                            envolvendo design responsivo, APIs e tecnologias web modernas.
+                        </p>
+
                     </div>
 
                 </div>
+            </div>
+        </section>
 
-                <h3>
-                    Aplicação de Clima
-                </h3>
+        <!-- Habilidades -->
+        <section id="skills">
 
-                <p>
-                    App de clima que exibe dados meteorológicos em tempo real usando APIs.
+            <div class="container">
+
+                <h2 class="section-title">Skills</h2>
+
+                <p class="section-subtitle">
+                    Tecnologias e práticas que uso para construir experiências web responsivas.
                 </p>
 
-                <div class="tech-stack">
-                    <span>JavaScript</span>
-                    <span>API</span>
-                    <span>UI Responsiva</span>
+                <div class="skills-grid">
+
+                    <article class="card skill-card fade-up">
+                        <h3>HTML</h3>
+                        <p>Semantic, well-structured web pages.</p>
+                    </article>
+
+                    <article class="card skill-card fade-up">
+                        <h3>CSS</h3>
+                        <p>Responsive layouts and polished interfaces.</p>
+                    </article>
+
+                    <article class="card skill-card fade-up">
+                        <h3>JavaScript</h3>
+                        <p>Interactive behavior and dynamic experiences.</p>
+                    </article>
+
+                    <article class="card skill-card fade-up">
+                        <h3>APIs</h3>
+                        <p>Connecting web applications to external data.</p>
+                    </article>
+
                 </div>
-
-                <div class="project-links">
-
-                    <a class="btn btn-secondary"
-                        href="https://jeffetecno.github.io/App-do-clima-/"
-                        target="_blank" rel="noopener noreferrer">
-                        Live Demo
-                    </a>
-
-                </div>
-
             </div>
+        </section>
 
-            <!-- PROJETO 3 -->
-            <div class="card project-card fade-up">
+        <!-- Certificados -->
+        <section id="certificates">
 
-                <div class="project-image">
+            <div class="container">
 
-                    <img src="Music Player.png" alt="Music Player App" loading="lazy" decoding="async">
+                <h2 class="section-title">Certificados</h2>
 
-                    <div class="project-overlay">
-                        Music Player
+                <p class="section-subtitle">
+                    Sempre estudando — novas certificações em breve.
+                </p>
+
+                <div class="certificates-grid">
+
+                    <img
+                        class="certificate-status-image"
+                        src="certificados-em-andamento.svg"
+                        alt="Certificados em andamento. Em breve, novas certificações.">
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projetos -->
+        <section id="projects">
+
+            <div class="container">
+
+                <h2 class="section-title">Projetos em destaque</h2>
+
+                <p class="section-subtitle">
+                    Projetos que demonstram experiência prática em desenvolvimento web.
+                </p>
+
+                <div class="projects-carousel">
+
+                    <div class="projects-track">
+
+                        <!-- Projeto 1 -->
+                        <div class="card project-card fade-up">
+
+                            <div class="project-image">
+
+                                <img
+                                    src="agendamento.png"
+                                    alt="Site de agendamento para manicure"
+                                    loading="lazy"
+                                    decoding="async">
+
+                                <div class="project-overlay">
+                                    Sistema de Agendamento
+                                </div>
+
+                            </div>
+
+                            <h3>Site de Agendamento para Manicure</h3>
+
+                            <p>
+                                Site responsivo criado para agendamentos de manicure,
+                                permitindo que clientes marquem serviços com facilidade.
+                            </p>
+
+                            <div class="tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <div class="project-links">
+
+                                <a
+                                    class="btn btn-secondary"
+                                    href="https://jeffetecno.github.io/Manicure/"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    Live Demo
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <!-- Projeto 2 -->
+                        <div class="card project-card fade-up">
+
+                            <div class="project-image">
+
+                                <img
+                                    src="clima.png"
+                                    alt="Aplicação de clima"
+                                    loading="lazy"
+                                    decoding="async">
+
+                                <div class="project-overlay">
+                                    App do Clima
+                                </div>
+
+                            </div>
+
+                            <h3>Aplicação de Clima</h3>
+
+                            <p>
+                                App de clima que exibe dados meteorológicos em tempo real usando APIs.
+                            </p>
+
+                            <div class="tech-stack">
+                                <span>JavaScript</span>
+                                <span>API</span>
+                                <span>UI Responsiva</span>
+                            </div>
+
+                            <div class="project-links">
+
+                                <a
+                                    class="btn btn-secondary"
+                                    href="https://jeffetecno.github.io/App-do-clima-/"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    Live Demo
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <!-- Projeto 3 -->
+                        <div class="card project-card fade-up">
+
+                            <div class="project-image">
+
+                                <img
+                                    src="Music Player.png"
+                                    alt="Player de música"
+                                    loading="lazy"
+                                    decoding="async">
+
+                                <div class="project-overlay">
+                                    Music Player
+                                </div>
+
+                            </div>
+
+                            <h3>Player de Música</h3>
+
+                            <p>
+                                Player moderno construído com HTML, CSS e JavaScript,
+                                permitindo tocar e controlar faixas de áudio com
+                                interface limpa e responsiva.
+                            </p>
+
+                            <div class="tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <div class="project-links">
+
+                                <a
+                                    class="btn btn-secondary"
+                                    href="https://jeffetecno.github.io/Player-de-musicas/"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    Live Demo
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <!-- Projeto 4 -->
+                        <div class="card project-card fade-up">
+
+                            <div class="project-image">
+
+                                <img
+                                    src="gol-g2-capa.webp"
+                                    alt="Projeto Gol G2"
+                                    loading="lazy"
+                                    decoding="async">
+
+                                <div class="project-overlay">
+                                    Projeto Gol G2
+                                </div>
+
+                            </div>
+
+                            <h3>Projeto Gol G2</h3>
+
+                            <p>
+                                Projeto pessoal focado em restauração, personalização
+                                e detailing, com história da build, fotos do progresso
+                                e peças selecionadas.
+                            </p>
+
+                            <div class="tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Personalização</span>
+                            </div>
+
+                            <div class="project-links">
+
+                                <span class="btn btn-secondary">
+                                    Em Desenvolvimento
+                                </span>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Processo -->
+        <section id="process">
+
+            <div class="container">
+
+                <h2 class="section-title">Como eu trabalho</h2>
+
+                <p class="section-subtitle">
+                    Do primeiro contato à entrega: cada etapa pensada para um resultado profissional.
+                </p>
+
+                <div class="process-grid">
+
+                    <div class="process-step fade-up">
+                        <span class="step-number">01</span>
+                        <h3>Briefing</h3>
+                        <p>Entendo seu objetivo, seu público e o que sua marca precisa comunicar.</p>
+                    </div>
+
+                    <div class="process-step fade-up">
+                        <span class="step-number">02</span>
+                        <h3>Planejamento</h3>
+                        <p>Defino estrutura, conteúdo e referências visuais antes de escrever qualquer código.</p>
+                    </div>
+
+                    <div class="process-step fade-up">
+                        <span class="step-number">03</span>
+                        <h3>Desenvolvimento</h3>
+                        <p>Site construído do zero, sem templates, com código limpo e organizado.</p>
+                    </div>
+
+                    <div class="process-step fade-up">
+                        <span class="step-number">04</span>
+                        <h3>Entrega</h3>
+                        <p>Site responsivo, testado e publicado — com ajustes finais até sua aprovação.</p>
                     </div>
 
                 </div>
+            </div>
+        </section>
 
-                <h3>
-                    Player de Música
-                </h3>
+        <!-- Depoimentos -->
+        <section id="testimonials">
 
-                <p>
-                    Player moderno construído com HTML, CSS e JavaScript, permitindo tocar e controlar faixas de áudio com interface limpa e responsiva.
+            <div class="container">
+
+                <h2 class="section-title">Depoimentos</h2>
+
+                <p class="section-subtitle">
+                    O que dizem quem já trabalhou comigo.
                 </p>
 
-                <div class="tech-stack">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
+                <div class="testimonials-grid">
+
+                    <figure class="card testimonial-card fade-up">
+
+                        <div class="testimonial-stars" aria-label="5 estrelas">
+                            ★★★★★
+                        </div>
+
+                        <blockquote>
+                            “Ficou exatamente como eu imaginava. Site rápido,
+                            bonito e meus clientes acham fácil de usar.”
+                        </blockquote>
+
+                        <figcaption>
+                            <strong>Jaíne</strong>
+                            <span>Manicure — Agendamento online</span>
+                        </figcaption>
+
+                    </figure>
+
+                    <figure class="card testimonial-card fade-up">
+
+                        <div class="testimonial-stars" aria-label="5 estrelas">
+                            ★★★★★
+                        </div>
+
+                        <blockquote>
+                            “Atendimento ágil e preocupado com cada detalhe.
+                            Recomendo para quem quer um site profissional.”
+                        </blockquote>
+
+                        <figcaption>
+                            <strong>Cliente</strong>
+                            <span>Projeto pessoal — Em breve</span>
+                        </figcaption>
+
+                    </figure>
+
                 </div>
-
-                <div class="project-links">
-
-                    <a class="btn btn-secondary"
-                        href="https://jeffetecno.github.io/Player-de-musicas/"
-                        target="_blank" rel="noopener noreferrer">
-                        Live Demo
-                    </a>
-
-                </div>
-
             </div>
+        </section>
 
-            <!-- PROJETO 4 -->
-            <div class="card project-card fade-up">
+        <!-- Perguntas frequentes -->
+        <section id="faq">
 
-                <div class="project-image">
+            <div class="container">
 
-                    <img src="gol-g2-capa.webp" alt="Gol G2 project" loading="lazy" decoding="async">
+                <h2 class="section-title">Perguntas frequentes</h2>
 
-                    <div class="project-overlay">
-                        Projeto Gol G2
+                <p class="section-subtitle">
+                    As dúvidas mais comuns sobre como trabalho.
+                </p>
+
+                <div class="faq-list">
+
+                    <details class="faq-item fade-up">
+                        <summary>Quanto tempo leva para ficar pronto?</summary>
+                        <p>
+                            Depende do tamanho do projeto. Sites simples ficam prontos
+                            em poucos dias; projetos maiores podem levar algumas semanas.
+                            Sempre combino o prazo no início.
+                        </p>
+                    </details>
+
+                    <details class="faq-item fade-up">
+                        <summary>O site funciona no celular?</summary>
+                        <p>
+                            Sim. Todos os projetos são desenvolvidos para funcionar
+                            perfeitamente em celulares, tablets e computadores.
+                        </p>
+                    </details>
+
+                    <details class="faq-item fade-up">
+                        <summary>Preciso ter o conteúdo pronto?</summary>
+                        <p>
+                            Não necessariamente. Posso te ajudar a organizar textos,
+                            imagens e a estrutura do site durante o briefing.
+                        </p>
+                    </details>
+
+                    <details class="faq-item fade-up">
+                        <summary>Como funciona o pagamento?</summary>
+                        <p>
+                            Combinamos juntos a melhor forma — normalmente parte no início
+                            e parte na entrega. Pix, transferência ou cartão.
+                        </p>
+                    </details>
+
+                    <details class="faq-item fade-up">
+                        <summary>Tem suporte depois da entrega?</summary>
+                        <p>
+                            Sim! Após a entrega ofereço um período de ajustes gratuitos
+                            para garantir que tudo fique exatamente como você quer.
+                        </p>
+                    </details>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section id="contact">
+
+            <div class="container">
+
+                <h2 class="section-title">Vamos conversar?</h2>
+
+                <p class="section-subtitle">
+                    Quer trabalhar comigo ou discutir um projeto? Me chame!
+                </p>
+
+                <div class="contact-grid">
+
+                    <!-- Informações de contato -->
+                    <div class="card fade-up">
+
+                        <h3>Onde me encontrar</h3>
+
+                        <div class="contact-item">
+                            <strong>GitHub:</strong>
+                            <a
+                                href="https://github.com/Jeffetecno"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                github.com/Jeffetecno
+                            </a>
+                        </div>
+
+                        <div class="contact-item">
+                            <strong>Instagram:</strong>
+                            <a
+                                href="https://www.instagram.com/_jef_fe"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                @_jef_fe
+                            </a>
+                        </div>
+
+                        <div class="contact-item">
+                            <strong>Email:</strong>
+                            <a href="mailto:Jeffersontecno11@gmail.com">
+                                Jeffersontecno11@gmail.com
+                            </a>
+                        </div>
+
+                        <div class="contact-item">
+                            <strong>WhatsApp:</strong>
+                            <a
+                                href="https://wa.me/5554999768323"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                +55 54 99976-8323
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <!-- Formulário de orçamento -->
+                    <div class="card fade-up contact-form-card">
+
+                        <h3>Solicite um orçamento</h3>
+
+                        <form id="contactForm" class="contact-form">
+
+                            <div class="form-field">
+                                <label for="fName">Seu nome</label>
+                                <input
+                                    type="text"
+                                    id="fName"
+                                    name="name"
+                                    required
+                                    placeholder="Como você se chama?">
+                            </div>
+
+                            <div class="form-field">
+                                <label for="fType">Tipo de projeto</label>
+
+                                <select id="fType" name="type" required>
+                                    <option value="" disabled selected>
+                                        Escolha uma opção
+                                    </option>
+                                    <option>Site para minha empresa</option>
+                                    <option>Portfólio pessoal</option>
+                                    <option>Landing page</option>
+                                    <option>Outro</option>
+                                </select>
+                            </div>
+
+                            <div class="form-field">
+                                <label for="fMsg">Conte sobre seu projeto</label>
+                                <textarea
+                                    id="fMsg"
+                                    name="message"
+                                    rows="4"
+                                    required
+                                    placeholder="O que você precisa? Qual seu objetivo?"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary form-submit">
+                                Enviar pelo WhatsApp <span class="btn-arrow">↗</span>
+                            </button>
+
+                        </form>
                     </div>
 
                 </div>
+            </div>
+        </section>
 
-                <h3>
-                    Projeto Gol G2
-                </h3>
+    </main>
 
-                <p>
-                    Projeto pessoal focado em restauração, personalização e detailing, com história da build, fotos do progresso e peças selecionadas.
-                </p>
+    <!-- Rodapé -->
+    <footer>
 
-                <div class="tech-stack">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>Personalização</span>
+        <div class="container footer-content">
 
-                     <a class="btn btn-secondary"
-                        href=""
-                        target="_blank" rel="noopener noreferrer">
-                        Em Desenvolvimento
-                    </a>
-                </div>
-
+            <div class="logo footer-logo">
+                Jeffe<span>.dev</span>
             </div>
 
-            </div> <!-- projects-track -->
-        </div> <!-- projects-carousel -->
+            <nav class="footer-nav">
+                <a href="#home">Início</a>
+                <a href="#about">Sobre</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projetos</a>
+                <a href="#process">Processo</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact">Contato</a>
+            </nav>
 
-    </div> <!-- container -->
+            <p>
+                © 2026 Jefferson Natan Borges. Todos os direitos reservados.
+            </p>
 
-</section>
-
-<!-- ============ PROCESSO ============ -->
-<section id="process">
-    <div class="container">
-        <h2 class="section-title">Como eu trabalho</h2>
-        <p class="section-subtitle">Do primeiro contato à entrega: cada etapa pensada para um resultado profissional.</p>
-
-        <div class="process-grid">
-            <div class="process-step fade-up">
-                <span class="step-number">01</span>
-                <h3>Briefing</h3>
-                <p>Entendo seu objetivo, seu público e o que sua marca precisa comunicar.</p>
-            </div>
-            <div class="process-step fade-up">
-                <span class="step-number">02</span>
-                <h3>Planejamento</h3>
-                <p>Defino estrutura, conteúdo e referências visuais antes de escrever qualquer código.</p>
-            </div>
-            <div class="process-step fade-up">
-                <span class="step-number">03</span>
-                <h3>Desenvolvimento</h3>
-                <p>Site construído do zero, sem templates, com código limpo e organizado.</p>
-            </div>
-            <div class="process-step fade-up">
-                <span class="step-number">04</span>
-                <h3>Entrega</h3>
-                <p>Site responsivo, testado e publicado — com ajustes finais até sua aprovação.</p>
-            </div>
         </div>
-    </div>
-</section>
+    </footer>
 
-<!-- ============ DEPOIMENTOS ============ -->
-<section id="testimonials">
-    <div class="container">
-        <h2 class="section-title">Depoimentos</h2>
-        <p class="section-subtitle">O que dizem quem já trabalhou comigo.</p>
-
-        <div class="testimonials-grid">
-            <figure class="card testimonial-card fade-up">
-                <div class="testimonial-stars" aria-label="5 estrelas">★★★★★</div>
-                <blockquote>
-                    “Ficou exatamente como eu imaginava. Site rápido, bonito e meus clientes acham fácil de usar.”
-                </blockquote>
-                <figcaption>
-                    <strong>Jaíne</strong>
-                    <span>Manicure — Agendamento online</span>
-                </figcaption>
-            </figure>
-
-            <figure class="card testimonial-card fade-up">
-                <div class="testimonial-stars" aria-label="5 estrelas">★★★★★</div>
-                <blockquote>
-                    “Atendimento ágil e preocupado com cada detalhe. Recomendo para quem quer um site profissional.”
-                </blockquote>
-                <figcaption>
-                    <strong>Cliente</strong>
-                    <span>Projeto pessoal — Em breve</span>
-                </figcaption>
-            </figure>
-        </div>
-    </div>
-</section>
-
-<!-- ============ FAQ ============ -->
-<section id="faq">
-    <div class="container">
-        <h2 class="section-title">Perguntas frequentes</h2>
-        <p class="section-subtitle">As dúvidas mais comuns sobre como trabalho.</p>
-
-        <div class="faq-list">
-            <details class="faq-item fade-up">
-                <summary>Quanto tempo leva para ficar pronto?</summary>
-                <p>Depende do tamanho do projeto. Sites simples ficam prontos em poucos dias; projetos maiores podem levar algumas semanas. Sempre combino o prazo no início.</p>
-            </details>
-            <details class="faq-item fade-up">
-                <summary>O site funciona no celular?</summary>
-                <p>Sim. Todos os projetos são desenvolvidos para funcionar perfeitamente em celulares, tablets e computadores.</p>
-            </details>
-            <details class="faq-item fade-up">
-                <summary>Preciso ter o conteúdo pronto?</summary>
-                <p>Não necessariamente. Posso te ajudar a organizar textos, imagens e a estrutura do site durante o briefing.</p>
-            </details>
-            <details class="faq-item fade-up">
-                <summary>Como funciona o pagamento?</summary>
-                <p>Combinamos juntos a melhor forma — normalmente parte no início e parte na entrega. Pix, transferência ou cartão.</p>
-            </details>
-            <details class="faq-item fade-up">
-                <summary>Tem suporte depois da entrega?</summary>
-                <p>Sim! Após a entrega ofereço um período de ajustes gratuitos para garantir que tudo fique exatamente como você quer.</p>
-            </details>
-        </div>
-    </div>
-</section>
-
-<section id="contact">
-
-    <div class="container">
-
-        <h2 class="section-title">
-            Vamos conversar?
-        </h2>
-<p class="section-subtitle">
-Quer trabalhar comigo ou discutir um projeto? Me chame!
-</p>
-
-<div class="contact-grid">
-
-<!-- CARD ESQUERDO -->
-<div class="card fade-up">
-
-<h3>Onde me encontrar</h3>
-
-<div class="contact-item">
-<strong>GitHub:</strong>
-
-<a href="https://github.com/Jeffetecno" target="_blank" rel="noopener noreferrer">
-github.com/Jeffetecno
-</a>
-</div>
-
-<div class="contact-item">
-<strong>Instagram:</strong>
-
-<a href="https://www.instagram.com/_jef_fe" target="_blank" rel="noopener noreferrer">
-@_jef_fe
-</a>
-</div>
-
-<div class="contact-item">
-<strong>Email:</strong>
-
-<a href="mailto:Jeffersontecno11@gmail.com">
-Jeffersontecno11@gmail.com
-</a>
-</div>
-
-<div class="contact-item">
-<strong>WhatsApp:</strong>
-
-<a href="https://wa.me/5554999768323" target="_blank" rel="noopener noreferrer">
-+55 54 99976-8323
-</a>
-</div>
-
-</div>
-
-<!-- CARD DIREITO: FORMULÁRIO -->
-<div class="card fade-up contact-form-card">
-
-<h3>Solicite um orçamento</h3>
-
-<form id="contactForm" class="contact-form">
-<div class="form-field">
-<label for="fName">Seu nome</label>
-<input type="text" id="fName" name="name" required placeholder="Como você se chama?">
-</div>
-
-<div class="form-field">
-<label for="fType">Tipo de projeto</label>
-<select id="fType" name="type" required>
-<option value="" disabled selected>Escolha uma opção</option>
-<option>Site para minha empresa</option>
-<option>Portfólio pessoal</option>
-<option>Landing page</option>
-<option>Outro</option>
-</select>
-</div>
-
-<div class="form-field">
-<label for="fMsg">Conte sobre seu projeto</label>
-<textarea id="fMsg" name="message" rows="4" required placeholder="O que você precisa? Qual seu objetivo?"></textarea>
-</div>
-
-<button type="submit" class="btn btn-primary form-submit">Enviar pelo WhatsApp <span class="btn-arrow">↗</span></button>
-</form>
-
-</div>
-
-</div>
-</div>
-
-</section>
-
-</main>
-
-<footer>
-
-<div class="container footer-content">
-
-<div class="logo footer-logo">Jeffe<span>.dev</span></div>
-
-<nav class="footer-nav">
-<a href="#home">Início</a>
-<a href="#about">Sobre</a>
-<a href="#skills">Skills</a>
-<a href="#projects">Projetos</a>
-<a href="#process">Processo</a>
-<a href="#faq">FAQ</a>
-<a href="#contact">Contato</a>
-</nav>
-
-<p>
-© 2026 Jefferson Natan Borges. Todos os direitos reservados.
-</p>
-
-</div>
-
-</footer>
-
-<script src="script.js"></script>
+    <!-- JavaScript na mesma pasta -->
+    <script src="script.js"></script>
 
 </body>
 </html>
